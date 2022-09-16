@@ -1,0 +1,22 @@
+# binutils-objcopy
+
+This package is extracted from original GNU binutils source,in order
+to provide a GNU-compatible objcopy on eweOS.
+
+## BUILD
+
+Make sure you have installed zlib.Configure and compile bfd and
+libiberty first.Then simply execute 'build.sh',the output is named as
+'binutils-objcopy'.
+
+## INSTALL
+
+This package is available on eweOS as binutils-objcopy.
+
+```
+pacman -S binutils-objcopy
+```
+
+## LICENSE
+
+All sources are under the same license as original binutils does.
